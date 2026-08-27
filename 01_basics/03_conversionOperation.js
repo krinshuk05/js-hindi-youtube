@@ -44,3 +44,50 @@ console.log(typeof stringNumber);
 // Agar tumhari bike ka engine completely kharab ho jaye aur wo chalne ke qabil na rahe, toh kya wo achaanak se "Hawai Jahaz" ban jayegi? Nahi. Wo ek "Kharab Bike" kehlayegi, par uski category (type) abhi bhi "Vehicle/Bike" hi rahegi.
 
 // Bilkul waise hi, kyunki tumne explicitly usko Number() method se convert karne ki koshish ki thi, JS ne usko number family ka label de diya, par kyunki uske andar alphabets the, value NaN (kharab number) set kar di.
+
+
+
+
+ 
+// ********************** Operations ******************
+
+
+
+let value=3
+let negValue=-value
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**4)
+console.log(2%4)
+console.log(2/3)
+
+
+let str1="hello"
+let str2=" Krinshuk"
+let str3=str1+str2
+console.log(str3)
+
+
+// this type of code is not a good practice 
+console.log(2+2+"2")
+// let a="2"
+// let b=1;
+// let c=a+b
+// console.log(typeof c)
+// console.log(c);
+//refer echma script 7.1.1 (ToPrimitive) 7.1 type_conversion.
+// or refer to chai aur code type conversion video (english one)
+
+console.log(+true)
+console.log(+"");
+//refer operator prescendence for exam pov
+let gameCounter=100
+++gameCounter
+console.log(gameCounter);
+
+// prefix and postfix operator.  refer mdn documentation.
+
+
